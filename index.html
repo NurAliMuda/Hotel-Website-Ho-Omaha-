@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ho'omaha Hotel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h2 class="logo">Ho'omaha</h2>
+        <nav class="navigation">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#feedback">Feedback</a>
+            <a href="#book">Book</a>
+        </nav>
+    </header>
+
+    <section class="relax" id="home">
+        <img src="hill1.png" id="hill1">
+        <img src="hill2.png" id="hill2">
+        <img src="hill3.png" id="hill3">
+        <img src="hill4.png" id="hill4">
+        <img src="hill5.png" id="hill5">
+        <img src="tree.png" id="tree">
+
+        <!-- <img src="hotel.png" id="hotel"> -->
+        <h2 id="text">Calm Your Mind</h2>
+
+        <img src="leaf.png" id="leaf">
+        <img src="plant.png" id="plant">
+    </section>
+
+    <section class="sec">
+    <div class="wave-container">
+        <!-- Back wave -->
+        <svg class="wave wave-back" viewBox="0 0 1440 150" preserveAspectRatio="none">
+            <path d="M0,80 C300,150 1100,0 1440,80 L1440,150 L0,150 Z"></path>
+        </svg>
+
+        <!-- Middle wave -->
+        <svg class="wave wave-mid" viewBox="0 0 1440 150" preserveAspectRatio="none">
+            <path d="M0,90 C400,140 1000,20 1440,90 L1440,150 L0,150 Z"></path>
+        </svg>
+
+        <!-- Front wave -->
+        <svg class="wave wave-front" viewBox="0 0 1440 150" preserveAspectRatio="none">
+            <path d="M0,100 C500,160 900,10 1440,100 L1440,150 L0,150 Z"></path>
+        </svg>
+    </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="sec" id="about">
+        <h2>About Ho'omaha Hotel</h2>
+        <p>
+            <b>What is Lorem Ipsum?</b><br>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text 
+            ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived 
+            not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 
+            1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like 
+            Aldus PageMaker including versions of Lorem Ipsum.<br><br>
+            <b>Why do we use it?</b><br>
+            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The 
+            point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content 
+            here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their 
+            default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved
+            over the years, sometimes by accident, sometimes on purpose (injected humour and the like).<br><br>
+            <b>Where does it come from?</b><br>
+            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, 
+            making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more 
+            obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, 
+            discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" 
+            (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the 
+            Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+            The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from 
+            "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 
+            1914 translation by H. Rackham.<br><br>
+        </p>
+    </section>
+
+    <!-- FEEDBACK SECTION -->
+    <section class="sec" id="feedback">
+        <h2>Guest Experiences</h2>
+        <!-- carousel -->
+        <div class="carousel">
+            <div class="group">
+                <div class="card">
+                    <img src="cat1.jpg" alt="1">
+                    <p class="card-title"><b>Alien Cat</b>"I really like this place! I can finally be myself!!!"</p>
+                </div>
+                <div class="card">
+                    <img src="cat2.jpg" alt="2">
+                    <p class="card-title"><b>Working Cat</b><br>"I finally get my vacation after years of working. I finally can get rid of this eyebags. Thank you Ho'omaha."</p>
+                </div>
+                <div class="card">
+                    <img src="cat3.jpg" alt="3">
+                    <p class="card-title"><b>Hoping Cat</b><br>"I come here to propose to my friend to be my girlfriend! I'm hopping for a YES!"</p>
+                </div>
+                <div class="card">
+                    <img src="cat4.jpg" alt="4">
+                    <p class="card-title"><b>Chill Cat</b><br>"I was invited here by my friend...sigh. Whatever, I just enjoy the view and pretend I don't know him..."</p>
+                </div>
+                <div class="card">
+                    <img src="cat5.jpg" alt="5">
+                    <p class="card-title"><b>Madamme Cat</b><br>"My husband take me here, and I really enjoyed staying here! Would come here again! 10/10!!!"</p>
+                </div>
+                <div class="card">
+                    <img src="cat6.jpg" alt="6">
+                    <p class="card-title"><b>Spa Cat</b><br>"Good, good.."</p>
+                </div>
+            </div>
+
+            <!-- make the carousel loop infinitely -->
+            <div aria-hidden class="group">
+                <div class="card">
+                    <img src="cat1.jpg" alt="1">
+                    <p class="card-title"><b>Alien Cat</b><br>"I really like this place! I can finally be myself!!!"</p>
+                </div>
+                <div class="card">
+                    <img src="cat2.jpg" alt="2">
+                    <p class="card-title"><b>Working Cat</b><br>"I finally get my vacation after years of working. I finally can get rid of this eyebags. Thank you Ho'omaha."</p>
+                </div>
+                <div class="card">
+                    <img src="cat3.jpg" alt="3">
+                    <p class="card-title"><b>Hoping Cat</b><br>"I come here to propose to my friend to be my girlfriend! I'm hopping for a YES!"</p>
+                </div>
+                <div class="card">
+                    <img src="cat4.jpg" alt="4">
+                    <p class="card-title"><b>Chill Cat</b><br>"I was invited here by my friend...sigh. Whatever, I just enjoy the view and pretend I don't know him..."</p>
+                </div>
+                <div class="card">
+                    <img src="cat5.jpg" alt="5">
+                    <p class="card-title"><b>Madamme Cat</b><br>"My husband take me here, and I really enjoyed staying here! Would come here again! 10/10!!!"</p>
+                </div>
+                <div class="card">
+                    <img src="cat6.jpg" alt="6">
+                    <p class="card-title"><b>Spa Cat</b><br>"Good, good.."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- FEEDBACK SECTION -->
+    <section class="sec" id="book">
+        <h2>Book Your Stay</h2>
+
+        <form action="https://formspree.io/f/xojyzkab" method="POST" class="booking-form">
+            <input type="text" name="name" placeholder="Full Name" required>
+            <input type="email" name="email" placeholder="Email Address" required>
+
+            <div class="form-group">
+                <label for="checkin">Check In Date</label>
+                <input type="date" name="checkin" placeholder="Check In Date" required>
+                <label for="checkout">Check Out Date</label>
+            <input type="date" name="checkout" placeholder="Check Out Date" required>
+            </div>
+            
+            <input type="number" name="guests" placeholder="Guests" required>
+            <textarea name="message" placeholder="Special Requests"></textarea>
+            <button type="submit">Book Now</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
